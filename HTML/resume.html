@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Samriddhi Kaushal - Resume</title>
+
+    <style>
+
+        /* ---------- GENERAL ---------- */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #e9eef3;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .resume {
+            width: 850px;
+            margin: 30px auto;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.15);
+        }
+
+
+        /* ---------- HEADER ---------- */
+
+        .header {
+            background-color: #173b5c;
+            color: white;
+            padding: 30px 40px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .contact {
+            font-size: 14px;
+        }
+
+        .contact span {
+            margin-right: 18px;
+        }
+
+        .contact a {
+            color: white;
+            text-decoration: none;
+            margin-right: 18px;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* ---------- MAIN CONTENT ---------- */
+
+        .content {
+            padding: 30px 40px;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            color: #173b5c;
+            font-size: 18px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #2b91c9;
+            padding-bottom: 6px;
+            margin-bottom: 15px;
+        }
+
+
+        /* ---------- EDUCATION ---------- */
+
+        .education {
+            margin-bottom: 15px;
+        }
+
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .education-header strong {
+            color: #222;
+        }
+
+        .date {
+            color: #666;
+            font-size: 14px;
+        }
+
+
+        /* ---------- PROJECTS ---------- */
+
+        .project {
+            margin-bottom: 18px;
+        }
+
+        .project h3 {
+            font-size: 16px;
+            color: #173b5c;
+            margin-bottom: 5px;
+        }
+
+        .project p {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .project strong {
+            color: #333;
+        }
+
+
+        /* ---------- SKILLS ---------- */
+
+        .skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .skill {
+            font-size: 14px;
+        }
+
+        .skill strong {
+            color: #173b5c;
+        }
+
+
+        /* ---------- ACHIEVEMENTS ---------- */
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+
+        /* ---------- DECLARATION ---------- */
+
+        .declaration {
+            font-size: 13px;
+            color: #555;
+        }
+
+
+        /* ---------- PRINT ---------- */
+
+        @media print {
+
+            body {
+                background-color: white;
+            }
+
+            .resume {
+                width: 100%;
+                margin: 0;
+                box-shadow: none;
+            }
+
+        }
+
+
+        /* ---------- MOBILE ---------- */
+
+        @media(max-width: 700px) {
+
+            .resume {
+                width: 95%;
+            }
+
+            .header,
+            .content {
+                padding: 25px;
+            }
+
+            .education-header {
+                flex-direction: column;
+            }
+
+            .skills {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+<div class="resume">
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <h1>SAMRIDDHI KAUSHAL</h1>
+
+        <div class="contact">
+
+            <span>📍 Jhansi</span>
+
+            <span>📞 +91 6391880446</span>
+
+            <a href="mailto:samriddhi.kaushal_cs24@gla.ac.in">
+                ✉ samriddhi.kaushal_cs24@gla.ac.in
+            </a>
+
+            <a href="https://www.linkedin.com/in/samriddhi-kaushal-068aa135a"
+               target="_blank">
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/Samriddhisays"
+               target="_blank">
+                GitHub
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= CONTENT ================= -->
+
+    <main class="content">
+
+
+        <!-- EDUCATION -->
+
+        <section>
+
+            <h2 class="section-title">
+                Education
+            </h2>
+
+
+            <div class="education">
+
+                <div class="education-header">
+
+                    <strong>
+                        Bachelor of Technology in Computer Science,
+                        GLA University, Mathura
+                    </strong>
+
+                    <span class="date">
+                        June 2027
+                    </span>
+
+                </div>
+
+                <p>
+                    CGPA/Percentage: 81.9%
+                </p>
+
+            </div>
+
+
+            <div class="education">
+
+                <div class="education-header">
+
+                    <strong>
+                        Intermediate,
+                        Mahatma Hansraj Modern School, Jhansi
+                    </strong>
+
+                    <span class="date">
+                        May 2023
+                    </span>
+
+                </div>
+
+                <p>
+                    CGPA/Percentage: 76.8%
+                </p>
+
+            </div>
+
+
+            <div class="education">
+
+                <div class="education-header">
+
+                    <strong>
+                        High School,
+                        Sheerwood College, Jhansi
+                    </strong>
+
+                    <span class="date">
+                        May 2021
+                    </span>
+
+                </div>
+
+                <p>
+                    CGPA/Percentage: 97.6%
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PROJECTS -->
+
+        <section>
+
+            <h2 class="section-title">
+                Projects
+            </h2>
+
+
+            <div class="project">
+
+                <h3>
+                    1. Gram Mulyankan (Rural Land Valuation Engine)
+                </h3>
+
+                <p>
+                    <strong>Contribution:</strong>
+                    Currently working as the Frontend Developer,
+                    building a transparent marketplace that uses
+                    AI-driven "Verified Badges" to prevent rural
+                    real estate fraud and to estimate fair market
+                    value of rural properties using multi-factor analysis.
+                </p>
+
+                <p>
+                    <strong>Technologies:</strong>
+                    React, Node.js, Tailwind CSS, FastAPI,
+                    PostgreSQL (PostGIS), and Google Maps APIs.
+                </p>
+
+            </div>
+
+
+
+            <div class="project">
+
+                <h3>
+                    2. AI-Based Hybrid College Helpdesk Chatbot
+                </h3>
+
+                <p>
+                    <strong>Contribution:</strong>
+                    Currently working on an NLP-based automated
+                    support system designed to resolve student
+                    queries and reduce administrative workload
+                    through intelligent response generation.
+                </p>
+
+                <p>
+                    <strong>Technologies:</strong>
+                    Python, NLP, TF-IDF Vectorization,
+                    Scikit-learn, Flask, and Streamlit.
+                </p>
+
+            </div>
+
+
+
+            <div class="project">
+
+                <h3>
+                    3. Brain Tumor Detection: An Overview
+                </h3>
+
+                <p>
+                    <strong>Contribution:</strong>
+                    Contributed to a research-oriented project
+                    analyzing advanced AI models and multimodal
+                    LLMs for early-stage brain tumor detection
+                    and segmentation.
+                </p>
+
+                <p>
+                    <strong>Technologies:</strong>
+                    CNNs (U-Net, 3D CNNs), Transfer Learning
+                    (VGGNet, ResNet), and medical-specific AI
+                    models like Med-PaLM and BioBERT.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SKILLS -->
+
+        <section>
+
+            <h2 class="section-title">
+                Skills
+            </h2>
+
+            <div class="skills">
+
+                <div class="skill">
+                    <strong>Technical:</strong>
+                    C, Python
+                </div>
+
+                <div class="skill">
+                    <strong>Professional:</strong>
+                    Effective Communication Skills
+                </div>
+
+                <div class="skill">
+                    <strong>Technical:</strong>
+                    Java, SQL
+                </div>
+
+                <div class="skill">
+                    <strong>Professional:</strong>
+                    Team Work
+                </div>
+
+                <div class="skill">
+                    <strong>Technical:</strong>
+                    Mongo DB
+                </div>
+
+                <div class="skill">
+                    <strong>Professional:</strong>
+                    Interpersonal Skills
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ACHIEVEMENTS -->
+
+        <section>
+
+            <h2 class="section-title">
+                Professional Achievements / Insights
+            </h2>
+
+            <ul>
+
+                <li>
+                    Participated in the 48-hour, Intrusion-X Hackathon
+                    at GLA University, where I worked on solving
+                    real-world cybersecurity challenges and networking
+                    with industry experts.
+                </li>
+
+                <li>
+                    Participated in Graph-E-Thon 2.0, a 72-hour
+                    national-level hackathon at Graphic Era University,
+                    focused on transforming innovative ideas into
+                    impactful solutions for real-world challenges.
+                </li>
+
+                <li>
+                    Attended a Bootcamp on Data Science and GPU
+                    Acceleration by Mr. Archit Verma at GLA University.
+                </li>
+
+                <li>
+                    Attended a Bootcamp on Data Engineering by
+                    Mr. Lakhan Veer Singh at GLA University.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+
+        <!-- CO-CURRICULAR -->
+
+        <section>
+
+            <h2 class="section-title">
+                Co-Curricular Activities
+            </h2>
+
+            <ul>
+
+                <li>
+                    Coordinated FUSION
+                    (Cultural Fest, GLA, November, 2025).
+                </li>
+
+                <li>
+                    Coordinated FRESH FACE OF THE YEAR
+                    (Cultural Fest, GLA, September, 2025).
+                </li>
+
+            </ul>
+
+        </section>
+
+
+
+        <!-- DECLARATION -->
+
+        <section>
+
+            <h2 class="section-title">
+                Declaration
+            </h2>
+
+            <p class="declaration">
+                I hereby declare that all the above mentioned
+                information is true and correct to the best of
+                my knowledge.
+            </p>
+
+        </section>
+
+
+    </main>
+
+</div>
+
+</body>
+</html>

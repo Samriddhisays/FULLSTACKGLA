@@ -1,0 +1,21 @@
+#heading-red {
+    background-color: rgb(12, 245, 237);
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Segoe UI', Geneva, Verdana, sans-serif;
+}
+
+#heading-green {
+    background-color: rgb(224, 163, 231);
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Segoe UI', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    border: 2px solid black;
+    width: 500px;
+    margin: 0 auto;
+}
